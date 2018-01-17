@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.parrot:libARCommands-3.13.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libARCommands-3.13.0.aar/23eaf9eb97861ed5c021465f0dc3b40a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libARCommands-3.13.0.aar/23eaf9eb97861ed5c021465f0dc3b40a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parrot/libARCommands/3.13.0/1e602d5dd70dbc709bcbce47bd48a468b74de33b/libARCommands-3.13.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

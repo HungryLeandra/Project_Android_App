@@ -151,19 +151,19 @@ public class BebopActivity extends AppCompatActivity {
             }
         });
 
-
+        mBebopDrone.setGaz((byte) 0);
 
         mSeekBar1 = (SeekBar)findViewById(R.id.gazUpDownBt);
         mSeekBar1.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
-                if (progress > 50) {
+                if (progress > 100) {
                     //v.setPressed(true);
-                    mBebopDrone.setGaz((byte) (progress-50));
+                    mBebopDrone.setGaz((byte) (progress-100));
 
-                } else if (progress <= 50){
+                } else if (progress <= 100){
                     //v.setPressed(false);
-                    mBebopDrone.setGaz((byte) -(50-progress));
+                    mBebopDrone.setGaz((byte) -(100-progress));
                 }
 
                 //return true;
@@ -174,22 +174,24 @@ public class BebopActivity extends AppCompatActivity {
             }
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                seekBar.setProgress(50);
+                seekBar.setProgress(100);
             }
         });
 
+
+        mBebopDrone.setYaw((byte) 0);
 
         mSeekBar2 = (SeekBar)findViewById(R.id.yawDirBt);
         mSeekBar2.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
-                if (progress > 50) {
+                if (progress > 100) {
                     //v.setPressed(true);
-                    mBebopDrone.setYaw((byte) (progress-50));
+                    mBebopDrone.setYaw((byte) (progress-100));
 
-                } else if (progress <= 50){
+                } else if (progress <= 100){
                     //v.setPressed(false);
-                    mBebopDrone.setYaw((byte) -(50-progress));
+                    mBebopDrone.setYaw((byte) -(100-progress));
                 }
 
                 //return true;
@@ -200,22 +202,25 @@ public class BebopActivity extends AppCompatActivity {
             }
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                seekBar.setProgress(50);
+                seekBar.setProgress(100);
             }
         });
+
+        mBebopDrone.setFlag((byte) 0);
+        mBebopDrone.setPitch((byte) 0);
 
         mSeekBar3 = (SeekBar)findViewById(R.id.forwabackBt);
         mSeekBar3.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
-                if (progress > 50) {
+                if (progress > 100) {
                     //v.setPressed(true);
-                    mBebopDrone.setPitch((byte) (progress-50));
+                    mBebopDrone.setPitch((byte) (progress-100));
                     mBebopDrone.setFlag((byte) 1);
 
-                } else if (progress <= 50){
+                } else if (progress <= 100){
                     //v.setPressed(false);
-                    mBebopDrone.setPitch((byte) -(50-progress));
+                    mBebopDrone.setPitch((byte) -(100-progress));
                     mBebopDrone.setFlag((byte) 1);
                 }
 
@@ -227,23 +232,25 @@ public class BebopActivity extends AppCompatActivity {
             }
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                seekBar.setProgress(50);
+                seekBar.setProgress(100);
             }
         });
 
+        mBebopDrone.setFlag((byte) 0);
+        mBebopDrone.setRoll((byte) 0);
 
         mSeekBar4 = (SeekBar)findViewById(R.id.rollDirBt);
         mSeekBar4.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
-                if (progress > 50) {
+                if (progress > 100) {
                     //v.setPressed(true);
-                    mBebopDrone.setRoll((byte) (progress-50));
+                    mBebopDrone.setRoll((byte) (progress-100));
                     mBebopDrone.setFlag((byte) 1);
 
-                } else if (progress <= 50){
+                } else if (progress <= 100){
                     //v.setPressed(false);
-                    mBebopDrone.setRoll((byte) -(50-progress));
+                    mBebopDrone.setRoll((byte) -(100-progress));
                     mBebopDrone.setFlag((byte) 1);
                 }
 
@@ -255,7 +262,7 @@ public class BebopActivity extends AppCompatActivity {
             }
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                seekBar.setProgress(50);
+                seekBar.setProgress(100);
             }
         });
 
