@@ -6,122 +6,148 @@
     tools:context=".activity.BebopActivity"
     android:id="@+id/piloting_view">
 
+
     <com.parrot.sdksample.view.H264VideoView
         android:id="@+id/videoView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
     <Button
+        android:id="@+id/emergencyBt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Emergency"
-        android:id="@+id/emergencyBt"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:width="150dp"/>
 
     <Button
+        android:id="@+id/takePictureBt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Take picture"
-        android:id="@+id/takePictureBt"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
+        android:layout_toLeftOf="@+id/emergencyBt"
         android:width="150dp"/>
 
     <Button
+        android:id="@+id/someBt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Some button"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/emergencyBt"
+        android:width="150dp"/>
+
+    <Button
         android:id="@+id/takeOffOrLandBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:width="150dp"/>
 
-    <Button
-        android:layout_width="75dp"
-        android:layout_height="wrap_content"
-        android:text="right"
-        android:id="@+id/yawRightBt"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="false"/>
 
-    <Button
-        android:layout_width="75dp"
+    <SeekBar
+        android:id="@+id/forwabackBt"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="left"
-        android:id="@+id/rollLeftBt"
+        android:max="200"
+        android:progress="100"
+        android:rotation="270"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:width="50dp"/>
+        />
 
-    <Button
-        android:layout_width="75dp"
+    <SeekBar
+        android:id="@+id/gazUpDownBt"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="left"
-        android:id="@+id/yawLeftBt"
-        android:layout_below="@+id/gazUpBt"
-        android:layout_toLeftOf="@+id/gazUpBt"
-        android:layout_toStartOf="@+id/gazUpBt"/>
-
-    <Button
-        android:layout_width="75dp"
-        android:layout_height="wrap_content"
-        android:text="right"
-        android:id="@+id/rollRightBt"
-        android:width="20dp"
-        android:layout_above="@+id/backBt"
-        android:layout_toRightOf="@+id/backBt"
-        android:layout_toEndOf="@+id/backBt"/>
-
-    <Button
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:text="up"
-        android:id="@+id/gazUpBt"
-        android:layout_above="@+id/yawRightBt"
-        android:layout_toLeftOf="@+id/yawRightBt"
-        android:layout_toStartOf="@+id/yawRightBt"
-        android:width="110dp"/>
-
-    <Button
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:text="down"
-        android:id="@+id/gazDownBt"
-        android:width="110dp"
-        android:layout_below="@+id/yawRightBt"
-        android:layout_toRightOf="@+id/yawLeftBt"
-        android:layout_toEndOf="@+id/yawLeftBt"/>
-
-    <Button
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:text="forward"
-        android:id="@+id/forwardBt"
-        android:layout_alignTop="@+id/gazUpBt"
-        android:layout_toRightOf="@+id/rollLeftBt"
-        android:layout_toEndOf="@+id/rollLeftBt"
-        android:width="110dp"/>
-
-    <Button
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:text="back"
-        android:id="@+id/backBt"
-        android:layout_below="@+id/rollLeftBt"
-        android:layout_toRightOf="@+id/rollLeftBt"
-        android:layout_toEndOf="@+id/rollLeftBt"
-        android:width="110dp"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Download"
-        android:id="@+id/downloadBt"
-        android:layout_alignParentBottom="true"
+        android:max="200"
+        android:progress="100"
+        android:rotation="270"
+        android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
-        android:width="150dp"/>
+        android:layout_alignParentEnd="false"
+        />
+
+    <SeekBar
+        android:id="@+id/yawDirBt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:max="200"
+        android:progress="100"
+        android:layout_above="@+id/gazUpDownBt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <SeekBar
+        android:id="@+id/rollDirBt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:max="200"
+        android:progress="100"
+        android:layout_alignTop="@+id/yawDirBt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewRoll"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Roll"
+        android:textSize="15dp"
+        android:width="50dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/textViewUD"
+        android:layout_toRightOf="@+id/batteryLabel"
+        android:layout_toEndOf="@+id/batteryLabel"
+        android:layout_marginBottom="22dp" />
+
+    <TextView
+        android:id="@+id/textViewBF"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Back/forward"
+        android:textSize="15dp"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:layout_toRightOf="@+id/rollDirBt"
+        android:layout_toEndOf="@+id/rollDirBt"
+         />
+
+    <TextView
+        android:id="@+id/textViewYaw"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Yaw"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+        android:layout_alignRight="@+id/textViewUD"
+        android:layout_alignLeft="@+id/textViewUD"
+        android:layout_alignStart="@+id/textViewUD"
+        android:layout_alignBottom="@+id/textViewRoll"
+        android:layout_alignTop="@+id/textViewRoll" />
+
+    <TextView
+        android:id="@+id/textViewUD"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Up/down"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+        android:layout_toLeftOf="@+id/gazUpDownBt"
+        android:layout_alignBottom="@+id/textViewBF"
+        android:layout_alignTop="@+id/textViewBF"
+         />
 
     <TextView
         android:layout_width="wrap_content"
@@ -129,10 +155,10 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Battery: "
         android:id="@+id/textView"
+        android:textColor="#ff0000"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ff0000" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -145,28 +171,6 @@
         android:layout_toEndOf="@+id/textView"
         android:textColor="#ff0000" />
 
-    <TextView
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="roll"
-        android:id="@+id/textView2"
-        android:width="50dp"
-        android:textAlignment="center"
-        android:gravity="center_horizontal"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/rollLeftBt"
-        android:layout_toEndOf="@+id/rollLeftBt"/>
 
-    <TextView
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="yaw"
-        android:id="@+id/textView3"
-        android:width="50dp"
-        android:layout_alignTop="@+id/textView2"
-        android:layout_alignRight="@+id/gazDownBt"
-        android:layout_alignEnd="@+id/gazDownBt"
-        android:gravity="center_horizontal"/>
+
 </RelativeLayout>

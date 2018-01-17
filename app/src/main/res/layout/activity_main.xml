@@ -20,7 +20,8 @@
         android:layout_height="10dp" />
 
     <RadioGroup
-        android:id="@+id/toggle1"
+        android:id="@+id/RealSim"
+        android:checkedButton="@+id/sim"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_marginBottom="16dp"
@@ -28,11 +29,10 @@
         android:layout_marginRight="50dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/pink_out_line"
-        android:checkedButton="@+id/offer"
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/search1"
+            android:id="@+id/real"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginBottom="1dp"
@@ -47,7 +47,7 @@
             android:textSize="28dp"/>
 
         <RadioButton
-            android:id="@+id/offer1"
+            android:id="@+id/sim"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginBottom="1dp"
@@ -58,7 +58,7 @@
             android:button="@null"
             android:gravity="center"
             android:text="Simulator"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="28dp"/>
     </RadioGroup>
 
@@ -79,7 +79,8 @@
 
 
     <RadioGroup
-        android:id="@+id/toggle"
+        android:id="@+id/ClasPil"
+        android:checkedButton="@+id/offer"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_marginBottom="16dp"
@@ -87,11 +88,10 @@
         android:layout_marginRight="50dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/pink_out_line"
-        android:checkedButton="@+id/offer"
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/search"
+            android:id="@+id/Classic"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginBottom="1dp"
@@ -106,7 +106,7 @@
             android:textSize="28dp"/>
 
         <RadioButton
-            android:id="@+id/offer"
+            android:id="@+id/Pilot"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginBottom="1dp"
@@ -117,7 +117,7 @@
             android:button="@null"
             android:gravity="center"
             android:text="Human pilot"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="28dp"/>
     </RadioGroup>
 
