@@ -53,25 +53,15 @@
 
 
     <SeekBar
-        android:id="@+id/seekBarRollDir"
+        android:id="@+id/seekBarRollGaz"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:max="200"
         android:progress="100"
+        android:rotation="270"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        />
-
-    <SeekBar
-        android:id="@+id/seekBarYawDir"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:max="200"
-        android:progress="100"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="false"
         />
 
     <SeekBar
@@ -81,21 +71,56 @@
         android:max="200"
         android:progress="100"
         android:rotation="270"
-        android:layout_above="@+id/seekBarYawDir"
-        android:layout_toRightOf="@+id/seekBarYawDir"
-        android:layout_toStartOf="@+id/seekBarYawDir"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
         />
 
     <SeekBar
-        android:id="@+id/seekBarRollGaz"
+        android:id="@+id/seekBarYawDir"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:max="200"
         android:progress="100"
-        android:rotation="270"
-        android:layout_above="@+id/seekBarRollDir"
+        android:layout_above="@+id/seekBarYawGaz"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <SeekBar
+        android:id="@+id/seekBarRollDir"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:max="200"
+        android:progress="100"
+        android:layout_alignTop="@+id/seekBarYawDir"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="roll"
+        android:id="@+id/textView2"
+        android:width="50dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/seekBarRollDir"
         android:layout_toEndOf="@+id/seekBarRollDir"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="yaw"
+        android:id="@+id/textView3"
+        android:width="50dp"
+        android:layout_toStarOf="@+id/seekBarYawDir"
+        android:layout_alignBottom="@+id/seekBarYawGaz"
+        android:layout_toLeftOf="@+id/seekBarYawGaz"
+        android:layout_toStartOf="@+id/seekBarYawGaz" />
+
 
 
 </RelativeLayout>
