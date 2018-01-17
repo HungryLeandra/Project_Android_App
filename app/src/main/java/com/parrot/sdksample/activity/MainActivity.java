@@ -64,12 +64,13 @@ public class MainActivity extends AppCompatActivity {
             }
 
         } else if(selectedId1==R.id.sim){
-
-            if (selectedId2 == R.id.Classic){
-
-            } else if(selectedId2 == R.id.Pilot){
-
-            }
+            Intent LaunchIntent = getPackageManager().getLaunchIntentForPackage("com.example.alex.dronesimulator");
+            startActivity(LaunchIntent);
+//            if (selectedId2 == R.id.Classic){
+//
+//            } else if(selectedId2 == R.id.Pilot){
+//
+//            }
         }
 
     }
