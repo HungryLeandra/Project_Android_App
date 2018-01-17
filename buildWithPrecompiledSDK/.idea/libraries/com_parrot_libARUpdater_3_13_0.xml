@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.parrot:libARUpdater-3.13.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libARUpdater-3.13.0.aar/6d5dfe360d7a0d903008add150de05d2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/libARUpdater-3.13.0.aar/6d5dfe360d7a0d903008add150de05d2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parrot/libARUpdater/3.13.0/6eef4907bf4341e34fdfae623c275f54ab69e158/libARUpdater-3.13.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
