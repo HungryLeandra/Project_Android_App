@@ -9,6 +9,12 @@
     <color name="icons">#FFFFFF</color>
     <color name="divider">#B6B6B6</color>
 
+    <color name="dark_pink">#FF0081</color>
+    <color name="pink">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#ffffff</color>
+    <color name="black">#000000</color>
+
     <color name="selected_tab_color">#AAAAAA</color>
     <color name="unselected_tab_color">#CCCCCC</color>
 </resources>

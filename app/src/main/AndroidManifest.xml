@@ -52,9 +52,18 @@
 
         <activity android:name=".activity.JSActivity" android:screenOrientation="landscape"/>
 
+<<<<<<< HEAD
         <activity android:name=".activity.MiniDroneActivity" android:screenOrientation="landscape"/>
 
         <activity android:name=".activity.SwingDroneActivity" android:screenOrientation="landscape"/>
+=======
+        <activity
+            android:name=".activity.SwingDroneActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".activity.MainMenuActivity"
+            android:screenOrientation="landscape"/>
+>>>>>>> 9f18ca577b1ea953f5f1a76d506e66f77451de10
 
     </application>
 
