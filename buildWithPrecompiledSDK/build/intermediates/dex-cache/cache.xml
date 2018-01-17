@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/df25407dca54ef5822310272c4c153cdcbfc8c0e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0346dd916ced11d5311dc58976f3e1a109497eda">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_93b1f9969a21d939807cee5f58715240866347e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/fc1accaeece47fc94dce87f616582dd5a21cc0ab/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_4f0593a1042d4041a6c8aae524d23d04682cfb53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/383ec4d4fb736177ab251d82421dc17acaebabcf/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_5e22ea9a08cbb677f2ccd5dae82bbf091c11cd9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/383ec4d4fb736177ab251d82421dc17acaebabcf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_ad74bd0d6a2809b25f630f2c71f43d4be0f7ef2a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/1bb7936747d6d21a6e2695ac7ba1aa8dc94ae88a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98f2103f3ae3dff7864a0c9ce72244f2be02169d">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_3ffae9dd13a7ab874b9df232f85c9a90420326ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/6e5e47462639f437d2880898a5dc2df7536bd642/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a02b08ab6ffbba25b4660c071c30d3e35fa4f170">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_695f7adda2e922075553aeb8cb69885f7aeecdb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/a3208f66df3155bbeab1c494bcb89662e65076bf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6854051de797f86a777039f484a5cd5099e8d1c">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_4851ac86bf0bffb661def546c7acd1d60c9efe11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/0f8ca12a44ca612e6a370be6e8ff6e147891f9d6/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_e6422a6ffc1fcdc1fbe0026fa4d8193b002b9c87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/0f8ca12a44ca612e6a370be6e8ff6e147891f9d6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_3c0f5c413dd4db75e6979af56dc6c63f68614e84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/fe93ab2fe6dd3b3c88d827cab3ff110efb0413d2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_fb530b6b93478fb0032ac68dce362ca33d2dce73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/84aeb7398c36d5ddd136a93e33cd475d48b575ea/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_0b41329d367a0526023f0d32ad02b4541983da41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/a5b703c354a59b46e58cdcec8f431c03ff855282/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_4e20364c5b6a003cdcb20002543c178df5bc7490.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/391c815b761cad8c15856d24a7aa44a07bbe6565/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f5a26b86c52c1254639cfd66c1b0a870daddbe4">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_da63a1330e4476336662104e8c67ab96ce5f494c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/a62ee609cda37c6062d1c9bdf34143af678fd49d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e13cfbbd30585d4ef688512247d91a6184d177f4">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_ba261f2c604a4fccec40aca13bb6519fe45d951f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/fe93ab2fe6dd3b3c88d827cab3ff110efb0413d2/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_b9da9f312ed3ed306956fb61a352c9eb762f6fa6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/5c4d8a8e3298e1265006c9e5eb1fc80c2152cc52/output/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_ed458c00caeeefd63da1bcbea968ac5c95343711.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/f7e7dbf0fc133743655a17667d1f68b239e84e43/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1fc1225e2b921f2a7cfcd508b4816cdd766622a0">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_b7321eccc285772a2df0a4f1c2736c0df9c54f34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/7765ddbc39ba6d2205c7a26b4dd863d804eecbd6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d13abb0108cb6a9526519d0d0e57621bd78e4c86">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_bb3ecbf7f4f9e4e2831d2cb03c44f3333ce3c63d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_dfcba198517f777e3ba5fd8b283a3abc74f87f81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/54294f980daef9197ff30d1a451449045e9c1ed0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0f75a46e6437a3f525fe09826135dec097f786be">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_ea54fb05d7e9ad2960ec00cfa97fc21a06a14e62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/8e77c0a5e1569d5b74f7fbbd9aa8299974b10813/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="051d3aa70440d1a5b9bf2372dd7a8ba5f9867dee">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_df31958dd52f68a452e49dac0dfa556dc6987e81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/55adc320b5d0d4b813fb3b1eb8e2944461ec27d3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0397cf9f8ef657e0c53d9fd2377bbeda84e2923d">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_9ac6fcad365023cd2f7e50763f2cc7fca9a14e76.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/bfebff0ece24287b897c452e773c569ee33ccbe3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a748d37b0f6c4034bbe2f95c9e0f10a478ce2c02">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_ff9b46f1124612f0a4b00979a4f3e9d09accd34b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/5c4d8a8e3298e1265006c9e5eb1fc80c2152cc52/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_b39a0743a0e667fdd7fbe9944b09fb99bab2fed7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/118cf91536c151425ced6ffc4c3a819203200f4f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e527286efa9c21906c7d9b08f9d1e1bc93f5ece5">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_d578b28280696ccc012151a28c649d4fa11b1430.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/9ec7a702e652e8fcbe90fd93c0f0448b431622b3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b18dc6a39683b3e7924b281eeffcb148dc2008d">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_ac90b507edf6158f0a567627eb3ea4089a050780.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/de0c3384bfb4c5faa8dddd1a718e99965728d960/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_f317e55d32a8b92f13de9b62d6b4787f4dac16a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.gradle/caches/modules-2/files-2.1/org.apache.sanselan/sanselan/0.97-incubator/8396778b076a2eaf62024b64f6d924e4e0095fca/sanselan-0.97-incubator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8396778b076a2eaf62024b64f6d924e4e0095fca">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/sanselan-0.97-incubator_c7b3d756f1e250ef8c836e3edab7f1b7cd7a9875.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/b518cc4908cb9e27c450ff13a72ef8c7dd7025fd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aaddf42ca7142384978e266e07eae75a58d7278b">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_7193bcc663ca38d06370c95b0fba328c2bfd895e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.gradle/caches/modules-2/files-2.1/javax.jmdns/jmdns/3.4.1/7ba2dcf7effb5ca9b00736b2a066fff3dd01d432/jmdns-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7ba2dcf7effb5ca9b00736b2a066fff3dd01d432">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/jmdns-3.4.1_4852a861301c20d88c0769123148f5140a0b3cea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/84aeb7398c36d5ddd136a93e33cd475d48b575ea/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_e6c7ae2bd9aa2ef3ea35fb78181aa93f99a0ea19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/laura/.android/build-cache/aa22820ff7092fe7f3984d40fe25dfbadad32d5e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/laura/Documents/EPFL/Cours_Master/Lab On Apps Development For Tablets, Smartphones And Smartwatches/Project_Android_App/app/build/intermediates/pre-dexed/debug/classes_40d9ed4a120a10d0a3325a9d7fbc634809846ba9.jar" />
+    </item>
+
+</items>

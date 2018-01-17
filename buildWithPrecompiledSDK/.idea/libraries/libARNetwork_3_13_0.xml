@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="libARNetwork-3.13.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/7765ddbc39ba6d2205c7a26b4dd863d804eecbd6/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/7765ddbc39ba6d2205c7a26b4dd863d804eecbd6/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parrot/libARNetwork/3.13.0/4f962a42a9b319ce0692769fe1d75dd4c91fe166/libARNetwork-3.13.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
