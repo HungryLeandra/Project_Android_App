@@ -53,7 +53,7 @@
 
 
     <SeekBar
-        android:id="@+id/seekBarRollGaz"
+        android:id="@+id/forwabackBt"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:max="200"
@@ -65,7 +65,7 @@
         />
 
     <SeekBar
-        android:id="@+id/seekBarYawGaz"
+        android:id="@+id/gazUpDownBt"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:max="200"
@@ -77,22 +77,22 @@
         />
 
     <SeekBar
-        android:id="@+id/seekBarYawDir"
+        android:id="@+id/yawDirBt"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:max="200"
         android:progress="100"
-        android:layout_above="@+id/seekBarYawGaz"
+        android:layout_above="@+id/gazUpDownBt"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
     <SeekBar
-        android:id="@+id/seekBarRollDir"
+        android:id="@+id/rollDirBt"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:max="200"
         android:progress="100"
-        android:layout_alignTop="@+id/seekBarYawDir"
+        android:layout_alignTop="@+id/yawDirBt"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -120,8 +120,8 @@
         android:textSize="15dp"
         android:layout_centerVertical="true"
         android:gravity="center_horizontal"
-        android:layout_toRightOf="@+id/seekBarRollDir"
-        android:layout_toEndOf="@+id/seekBarRollDir"
+        android:layout_toRightOf="@+id/rollDirBt"
+        android:layout_toEndOf="@+id/rollDirBt"
          />
 
     <TextView
@@ -144,7 +144,7 @@
         android:text="Up/down"
         android:textSize="15dp"
         android:gravity="center_horizontal"
-        android:layout_toLeftOf="@+id/seekBarYawGaz"
+        android:layout_toLeftOf="@+id/gazUpDownBt"
         android:layout_alignBottom="@+id/textViewBF"
         android:layout_alignTop="@+id/textViewBF"
          />

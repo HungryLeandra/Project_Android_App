@@ -145,7 +145,7 @@ public class BebopActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.gazUpBt).setOnTouchListener(new View.OnTouchListener() {
+        findViewById(R.id.gazUpDownBt).setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
@@ -168,30 +168,30 @@ public class BebopActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.gazDownBt).setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        v.setPressed(true);
-                        mBebopDrone.setGaz((byte) -50);
-                        break;
+        //findViewById(R.id.gazDownBt).setOnTouchListener(new View.OnTouchListener() {
+        //    @Override
+        //    public boolean onTouch(View v, MotionEvent event) {
+        //        switch (event.getAction()) {
+        //            case MotionEvent.ACTION_DOWN:
+        //                v.setPressed(true);
+        //                mBebopDrone.setGaz((byte) -50);
+        //                break;
 
-                    case MotionEvent.ACTION_UP:
-                        v.setPressed(false);
-                        mBebopDrone.setGaz((byte) 0);
-                        break;
+        //            case MotionEvent.ACTION_UP:
+        //                v.setPressed(false);
+        //                mBebopDrone.setGaz((byte) 0);
+        //                break;
 
-                    default:
+        //            default:
 
-                        break;
-                }
+        //                break;
+        //        }
 
-                return true;
-            }
-        });
+        //        return true;
+        //    }
+        //});
 
-        findViewById(R.id.yawLeftBt).setOnTouchListener(new View.OnTouchListener() {
+        findViewById(R.id.yawDirBt).setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
@@ -214,7 +214,7 @@ public class BebopActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.yawRightBt).setOnTouchListener(new View.OnTouchListener() {
+        /*findViewById(R.id.yawRightBt).setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
@@ -235,9 +235,9 @@ public class BebopActivity extends AppCompatActivity {
 
                 return true;
             }
-        });
+        });*/
 
-        findViewById(R.id.forwardBt).setOnTouchListener(new View.OnTouchListener() {
+        findViewById(R.id.forwabackBt).setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
@@ -262,7 +262,7 @@ public class BebopActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.backBt).setOnTouchListener(new View.OnTouchListener() {
+        /*findViewById(R.id.backBt).setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
@@ -285,9 +285,9 @@ public class BebopActivity extends AppCompatActivity {
 
                 return true;
             }
-        });
+        });*/
 
-        findViewById(R.id.rollLeftBt).setOnTouchListener(new View.OnTouchListener() {
+        findViewById(R.id.rollDirBt).setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
@@ -312,7 +312,7 @@ public class BebopActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.rollRightBt).setOnTouchListener(new View.OnTouchListener() {
+        /*findViewById(R.id.rollRightBt).setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
@@ -335,7 +335,7 @@ public class BebopActivity extends AppCompatActivity {
 
                 return true;
             }
-        });
+        });*/
 
         mBatteryLabel = (TextView) findViewById(R.id.batteryLabel);
     }
