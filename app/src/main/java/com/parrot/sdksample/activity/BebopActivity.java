@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.parrot.arsdk.arcommands.ARCOMMANDS_ARDRONE3_MEDIARECORDEVENT_PICTUREEVENTCHANGED_ERROR_ENUM;
@@ -36,6 +37,11 @@ public class BebopActivity extends AppCompatActivity {
 
     private int mNbMaxDownload;
     private int mCurrentDownloadIndex;
+
+    SeekBar mSeekBar1;
+    SeekBar mSeekBar2;
+    SeekBar mSeekBar3;
+    SeekBar mSeekBar4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -145,200 +151,120 @@ public class BebopActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.gazUpDownBt).setOnTouchListener(new View.OnTouchListener() {
+
+
+        mSeekBar1 = (SeekBar)findViewById(R.id.gazUpDownBt);
+        mSeekBar1.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        v.setPressed(true);
-                        mBebopDrone.setGaz((byte) 50);
-                        break;
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
+                if (progress > 50) {
+                    //v.setPressed(true);
+                    mBebopDrone.setGaz((byte) (progress-50));
 
-                    case MotionEvent.ACTION_UP:
-                        v.setPressed(false);
-                        mBebopDrone.setGaz((byte) 0);
-                        break;
-
-                    default:
-
-                        break;
+                } else if (progress <= 50){
+                    //v.setPressed(false);
+                    mBebopDrone.setGaz((byte) -(50-progress));
                 }
 
-                return true;
+                //return true;
+            }
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                seekBar.setProgress(50);
             }
         });
 
-        //findViewById(R.id.gazDownBt).setOnTouchListener(new View.OnTouchListener() {
-        //    @Override
-        //    public boolean onTouch(View v, MotionEvent event) {
-        //        switch (event.getAction()) {
-        //            case MotionEvent.ACTION_DOWN:
-        //                v.setPressed(true);
-        //                mBebopDrone.setGaz((byte) -50);
-        //                break;
 
-        //            case MotionEvent.ACTION_UP:
-        //                v.setPressed(false);
-        //                mBebopDrone.setGaz((byte) 0);
-        //                break;
-
-        //            default:
-
-        //                break;
-        //        }
-
-        //        return true;
-        //    }
-        //});
-
-        findViewById(R.id.yawDirBt).setOnTouchListener(new View.OnTouchListener() {
+        mSeekBar2 = (SeekBar)findViewById(R.id.yawDirBt);
+        mSeekBar2.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        v.setPressed(true);
-                        mBebopDrone.setYaw((byte) -50);
-                        break;
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
+                if (progress > 50) {
+                    //v.setPressed(true);
+                    mBebopDrone.setYaw((byte) (progress-50));
 
-                    case MotionEvent.ACTION_UP:
-                        v.setPressed(false);
-                        mBebopDrone.setYaw((byte) 0);
-                        break;
-
-                    default:
-
-                        break;
+                } else if (progress <= 50){
+                    //v.setPressed(false);
+                    mBebopDrone.setYaw((byte) -(50-progress));
                 }
 
-                return true;
+                //return true;
+            }
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                seekBar.setProgress(50);
             }
         });
 
-        /*findViewById(R.id.yawRightBt).setOnTouchListener(new View.OnTouchListener() {
+        mSeekBar3 = (SeekBar)findViewById(R.id.forwabackBt);
+        mSeekBar3.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        v.setPressed(true);
-                        mBebopDrone.setYaw((byte) 50);
-                        break;
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
+                if (progress > 50) {
+                    //v.setPressed(true);
+                    mBebopDrone.setPitch((byte) (progress-50));
+                    mBebopDrone.setFlag((byte) 1);
 
-                    case MotionEvent.ACTION_UP:
-                        v.setPressed(false);
-                        mBebopDrone.setYaw((byte) 0);
-                        break;
-
-                    default:
-
-                        break;
+                } else if (progress <= 50){
+                    //v.setPressed(false);
+                    mBebopDrone.setPitch((byte) -(50-progress));
+                    mBebopDrone.setFlag((byte) 1);
                 }
 
-                return true;
+                //return true;
             }
-        });*/
-
-        findViewById(R.id.forwabackBt).setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        v.setPressed(true);
-                        mBebopDrone.setPitch((byte) 50);
-                        mBebopDrone.setFlag((byte) 1);
-                        break;
+            public void onStartTrackingTouch(SeekBar seekBar) {
 
-                    case MotionEvent.ACTION_UP:
-                        v.setPressed(false);
-                        mBebopDrone.setPitch((byte) 0);
-                        mBebopDrone.setFlag((byte) 0);
-                        break;
-
-                    default:
-
-                        break;
-                }
-
-                return true;
+            }
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                seekBar.setProgress(50);
             }
         });
 
-        /*findViewById(R.id.backBt).setOnTouchListener(new View.OnTouchListener() {
+
+        mSeekBar4 = (SeekBar)findViewById(R.id.rollDirBt);
+        mSeekBar4.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        v.setPressed(true);
-                        mBebopDrone.setPitch((byte) -50);
-                        mBebopDrone.setFlag((byte) 1);
-                        break;
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
+                if (progress > 50) {
+                    //v.setPressed(true);
+                    mBebopDrone.setRoll((byte) (progress-50));
+                    mBebopDrone.setFlag((byte) 1);
 
-                    case MotionEvent.ACTION_UP:
-                        v.setPressed(false);
-                        mBebopDrone.setPitch((byte) 0);
-                        mBebopDrone.setFlag((byte) 0);
-                        break;
-
-                    default:
-
-                        break;
+                } else if (progress <= 50){
+                    //v.setPressed(false);
+                    mBebopDrone.setRoll((byte) -(50-progress));
+                    mBebopDrone.setFlag((byte) 1);
                 }
 
-                return true;
+                //return true;
             }
-        });*/
-
-        findViewById(R.id.rollDirBt).setOnTouchListener(new View.OnTouchListener() {
             @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        v.setPressed(true);
-                        mBebopDrone.setRoll((byte) -50);
-                        mBebopDrone.setFlag((byte) 1);
-                        break;
+            public void onStartTrackingTouch(SeekBar seekBar) {
 
-                    case MotionEvent.ACTION_UP:
-                        v.setPressed(false);
-                        mBebopDrone.setRoll((byte) 0);
-                        mBebopDrone.setFlag((byte) 0);
-                        break;
-
-                    default:
-
-                        break;
-                }
-
-                return true;
+            }
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+                seekBar.setProgress(50);
             }
         });
 
-        /*findViewById(R.id.rollRightBt).setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                switch (event.getAction()) {
-                    case MotionEvent.ACTION_DOWN:
-                        v.setPressed(true);
-                        mBebopDrone.setRoll((byte) 50);
-                        mBebopDrone.setFlag((byte) 1);
-                        break;
 
-                    case MotionEvent.ACTION_UP:
-                        v.setPressed(false);
-                        mBebopDrone.setRoll((byte) 0);
-                        mBebopDrone.setFlag((byte) 0);
-                        break;
-
-                    default:
-
-                        break;
-                }
-
-                return true;
-            }
-        });*/
 
         mBatteryLabel = (TextView) findViewById(R.id.batteryLabel);
     }
+
+
 
     private final BebopDrone.Listener mBebopListener = new BebopDrone.Listener() {
         @Override
