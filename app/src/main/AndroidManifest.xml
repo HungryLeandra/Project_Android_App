@@ -55,6 +55,9 @@
         <activity
             android:name=".activity.SwingDroneActivity"
             android:screenOrientation="landscape"/>
+        <activity
+            android:name=".activity.MainMenuActivity"
+            android:screenOrientation="landscape"/>
 
     </application>
 

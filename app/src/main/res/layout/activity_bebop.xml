@@ -144,9 +144,7 @@
         android:text="Up/down"
         android:textSize="15dp"
         android:gravity="center_horizontal"
-        android:layout_toStarOf="@+id/seekBarYawDir"
         android:layout_toLeftOf="@+id/seekBarYawGaz"
-        android:layout_toStartOf="@+id/seekBarYawGaz"
         android:layout_alignBottom="@+id/textViewBF"
         android:layout_alignTop="@+id/textViewBF"
          />
