@@ -48,12 +48,17 @@ public class BebopActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bebop);
 
-        initIHM();
-
         Intent intent = getIntent();
         ARDiscoveryDeviceService service = intent.getParcelableExtra(DeviceListActivity.EXTRA_DEVICE_SERVICE);
         mBebopDrone = new BebopDrone(this, service);
         mBebopDrone.addListener(mBebopListener);
+
+        initIHM();
+
+
+
+
+
 
     }
 
@@ -131,7 +136,7 @@ public class BebopActivity extends AppCompatActivity {
             }
         });
 
-        mDownloadBt = (Button)findViewById(R.id.downloadBt);
+        /*mDownloadBt = (Button)findViewById(R.id.downloadBt);
         mDownloadBt.setEnabled(false);
         mDownloadBt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -149,7 +154,7 @@ public class BebopActivity extends AppCompatActivity {
                 });
                 mDownloadProgressDialog.show();
             }
-        });
+        });*/
 
         mBebopDrone.setGaz((byte) 0);
 
@@ -160,12 +165,10 @@ public class BebopActivity extends AppCompatActivity {
                 if (progress > 100) {
                     //v.setPressed(true);
                     mBebopDrone.setGaz((byte) (progress-100));
-
                 } else if (progress <= 100){
                     //v.setPressed(false);
                     mBebopDrone.setGaz((byte) -(100-progress));
                 }
-
                 //return true;
             }
             @Override
@@ -304,17 +307,17 @@ public class BebopActivity extends AppCompatActivity {
                 case ARCOMMANDS_ARDRONE3_PILOTINGSTATE_FLYINGSTATECHANGED_STATE_LANDED:
                     mTakeOffLandBt.setText("Take off");
                     mTakeOffLandBt.setEnabled(true);
-                    mDownloadBt.setEnabled(true);
+                    //mDownloadBt.setEnabled(true);
                     break;
                 case ARCOMMANDS_ARDRONE3_PILOTINGSTATE_FLYINGSTATECHANGED_STATE_FLYING:
                 case ARCOMMANDS_ARDRONE3_PILOTINGSTATE_FLYINGSTATECHANGED_STATE_HOVERING:
                     mTakeOffLandBt.setText("Land");
                     mTakeOffLandBt.setEnabled(true);
-                    mDownloadBt.setEnabled(false);
+                    //mDownloadBt.setEnabled(false);
                     break;
                 default:
                     mTakeOffLandBt.setEnabled(false);
-                    mDownloadBt.setEnabled(false);
+                    //mDownloadBt.setEnabled(false);
             }
         }
 
