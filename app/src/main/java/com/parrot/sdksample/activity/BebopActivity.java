@@ -164,10 +164,10 @@ public class BebopActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
                 if (progress > 100) {
                     //v.setPressed(true);
-                    mBebopDrone.setGaz((byte) (progress-100));
+                    mBebopDrone.setGaz((byte) (int)((progress-100)/2));
                 } else if (progress <= 100){
                     //v.setPressed(false);
-                    mBebopDrone.setGaz((byte) -(100-progress));
+                    mBebopDrone.setGaz((byte) (int)(-(100-progress)/2));
                 }
                 //return true;
             }
@@ -190,11 +190,11 @@ public class BebopActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
                 if (progress > 100) {
                     //v.setPressed(true);
-                    mBebopDrone.setYaw((byte) (progress-100));
+                    mBebopDrone.setYaw((byte) (int)((progress-100)/2));
 
                 } else if (progress <= 100){
                     //v.setPressed(false);
-                    mBebopDrone.setYaw((byte) -(100-progress));
+                    mBebopDrone.setYaw((byte) (int)(-(100-progress)/2));
                 }
 
                 //return true;
@@ -218,12 +218,12 @@ public class BebopActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
                 if (progress > 100) {
                     //v.setPressed(true);
-                    mBebopDrone.setPitch((byte) (progress-100));
+                    mBebopDrone.setPitch((byte) (int)((progress-100)/2));
                     mBebopDrone.setFlag((byte) 1);
 
                 } else if (progress <= 100){
                     //v.setPressed(false);
-                    mBebopDrone.setPitch((byte) -(100-progress));
+                    mBebopDrone.setPitch((byte) (int)(-(100-progress)/2));
                     mBebopDrone.setFlag((byte) 1);
                 }
 
@@ -248,12 +248,12 @@ public class BebopActivity extends AppCompatActivity {
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromTouch) {
                 if (progress > 100) {
                     //v.setPressed(true);
-                    mBebopDrone.setRoll((byte) (progress-100));
+                    mBebopDrone.setRoll((byte) (int)((progress-100)/2));
                     mBebopDrone.setFlag((byte) 1);
 
                 } else if (progress <= 100){
                     //v.setPressed(false);
-                    mBebopDrone.setRoll((byte) -(100-progress));
+                    mBebopDrone.setRoll((byte) (int)(-(100-progress)/2));
                     mBebopDrone.setFlag((byte) 1);
                 }
 
